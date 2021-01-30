@@ -2,7 +2,7 @@ html{
 	background: #202125;
 }
 
-div.mainBody{
+div.cajon{
 	float: left;
 	width: 72%;
 	margin-left: 15%;
@@ -11,17 +11,7 @@ div.mainBody{
 	margin-bottom: 20px;
 }
 
-div.raya{
-	float: left;
-	background: #f3f4f8;
-	width: 75%;
-	height: 1px;
-	margin-left: 10%;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-div.element{
+div.cajon div{
 	float: left;
 	background: #f3f4f8;
 	width: 220px;
@@ -34,7 +24,7 @@ div.element{
 	font-size: 2em;
 }
 
-div.peque{
+div.cajon.peque div{
 	width: 176px;
 	height: 80px;
 	padding: 16px;
@@ -48,4 +38,14 @@ p{
 	color: #202125;
 	font-family: 'Potta One', cursive;
 	margin-top: 15px;
+}
+
+div.raya{
+	float: left;
+	background: #f3f4f8;
+	width: 75%;
+	height: 1px;
+	margin-left: 10%;
+	margin-top: 15px;
+	margin-bottom: 16px;
 }
