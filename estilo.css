@@ -1,3 +1,7 @@
+*{
+	margin: 0px;
+}
+
 html{
 	background: #202125;
 }
@@ -7,11 +11,11 @@ div.cajon{
 	width: 72%;
 	margin-left: 15%;
 	margin-right: 10%;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
 
-div.cajon div{
+div.cajon a div{
 	float: left;
 	background: #f3f4f8;
 	width: 220px;
@@ -21,23 +25,36 @@ div.cajon div{
 	padding-top: 0px;
 	padding-bottom: 40px;
 	margin: 16px;
+	margin-top: 2px;
+	margin-bottom: 30px;
 	font-size: 2em;
 }
 
-div.cajon.peque div{
+div.cajon.peque a div{
 	width: 176px;
 	height: 80px;
 	padding: 16px;
 	padding-top: 0px;
 	padding-bottom: 32px;
-	margin: 13px;
 	font-size: 1.6em;
 }
 
 p{
-	color: #202125;
 	font-family: 'Potta One', cursive;
+}
+
+div.cajon a div p{
+	color: #202125;
 	margin-top: 15px;
+}
+
+div.nombre{
+	margin-left: 20px;
+}
+
+div.nombre p{
+	color: #f3f4f8;
+	margin-left: 20px:
 }
 
 div.raya{
@@ -46,6 +63,6 @@ div.raya{
 	width: 75%;
 	height: 1px;
 	margin-left: 10%;
-	margin-top: 15px;
-	margin-bottom: 16px;
+	margin-top: 0px;
+	margin-bottom: 20px;
 }
